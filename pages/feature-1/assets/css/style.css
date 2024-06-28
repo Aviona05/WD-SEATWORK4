@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lilita One", sans-serif;
+    
+}
+
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    z-index: 1;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    position: relative;
+    font-size: 20px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 90;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 40px;
+    transition: color 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.5s;
+}
+
+nav ul li a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.content {
+    position: relative;
+    height: 90vh;
+    z-index: 2;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-image: url(../img/tv.jpg);
+    background-size: 100% 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: contrast(150%);
+    ;
+}
+
+.content h1 {
+    display: flex;
+    font-size: 35px;
+    font-weight: 500;
+    padding-left: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.contentbox{
+    padding: 50px;
+    display: flex;
+    font-weight: 500;
+    padding-left: 30px;
+    box-sizing: border-box;
+    box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.541);
+    width: 40%;
+    border-radius: 50px;
+    flex-direction: column;
+}
+
+.content p {
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.wrapper{
+    padding: 70px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrapper h1{
+    display: flex;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #ffffffce;
+    margin-bottom: 50px;
+    background-color: #9594948a;
+    width: 100%;
+   justify-content: center;
+}
+.services{
+    width: 1100px;
+    height: auto;
+    display: row;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.single-img{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+    transform: translate(0, 0);
+    transition: .3s;
+    background-color: #bab3b356;    
+    
+
+}
+.single-img:hover{
+    transform: translate(0, -9px);
+}
+.img-one{
+    background-image: url(../img/bravia.png);
+    background-size: 50% 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.img-two{
+    background-image: url(../img/sony.png);
+    background-size: 50% 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.img-three{
+    background-image: url(../img/control.png);
+    background-size: 50% 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.img-four{
+    background-image: url(../img/camera.png);
+    background-size: 50% 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.img-five{
+    background-image: url(../img/remote.png);
+    background-size: 50% 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.img-text{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.9),rgba(255,255,255,0));
+    padding: 0 10px 5px 10px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    transform: translate(0, 110px);
+    line-height: 25px;
+    transition: 0.5s ease;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+.img-text h4{
+    line-height: 15px;
+    padding: 0;
+    margin: 16px 0;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+.img-text p{
+    font-size: 14px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 20px;
+    text-decoration: none;
+}
+.single-img:hover .img-text{
+    transform: translate(0, 0);
+    
+}
+
+@media (max-width: 991px){
+    .wrapper{
+        padding: 0;
+    }
+    .services{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        margin-bottom: 35px;
+    }
+}
