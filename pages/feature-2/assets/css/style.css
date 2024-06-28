@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -66,7 +68,7 @@ nav ul li a:hover::before {
     height: calc(100dvh - 5rem);
     z-index: 2;
     text-align: center;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     background-image: url(../img/aircon.jpg);
     background-size: 100% 120%;
     background-position: center;
@@ -85,13 +87,14 @@ nav ul li a:hover::before {
     font-optical-sizing: auto;
     font-style: normal;
 }
-.contentbox{
+
+.contentbox {
     padding: 50px;
     display: flex;
     font-weight: 500;
     padding-left: 30px;
     box-sizing: border-box;
-    box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.541);
+    box-shadow: inset 0 0 0 2000px rgba(109, 106, 106, 0.329);
     width: 40%;
     border-radius: 50px;
     flex-direction: column;
@@ -99,68 +102,83 @@ nav ul li a:hover::before {
 
 .content p {
     display: flex;
-    font-size: 12px;
+    font-size: 17px;
     font-weight: 500;
     padding-left: 20px;
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    text-align: start;
 }
 
-.main-content{
+.main-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10rem;
-    padding-right: 10rem;
-
+    flex-wrap: wrap;
+    padding-top: 30rem;
+    padding-left: 2rem;
 }
 
 .card-container {
-    display: flex;
-    justify-content: center;
-    padding-top: 30rem;
-    padding-right: 20px;
-
+    flex: 1 1 100px;
+    margin: 10px;
 }
 
-.member {
-    border-radius: 10px;
-    border: 10px solid transparent;
-    box-shadow: 0 4px 8px rgb(249, 164, 17);
-    text-align: center;
+.card {
+    
+    width: 650px;
+    height: 230px;
+    background-color: #f8f8f8;
+    border-radius: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.486);
     overflow: hidden;
-    width: 100%;
-    height: 80%;
-    transition: border 0.5s;
 }
 
-.card img {
-    width: 90%;
-    height: auto;
-    padding-top: 10px;
-}
+
 
 .card-content {
-    gap: 20px;
     display: flex;
+    padding: 20px;
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+}
+.card-content img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    transition: transform 0.3s;
+    border-radius: 60px;
 }
 
-.card-content h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    font-weight: 100;
-    border-bottom: solid 2px #847b03;
+.member h1 {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 900;
 }
 
-.card-content p {
-    font-size: 16px;
-    color: #847b03;
-    margin-bottom: 20px;
-    font-weight: 50;
+.member p {
+    font-size: 14px;
 }
 
-.card img:hover {
-    transform: scale(1.1);
-    transition: transform 0.5s, border 0.5s;
+
+@media (max-width: 991px) {
+    .wrapper {
+        padding: 0;
+    }
+
+    .services {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.card-content img:hover {
+    transform: translateY(-10px);
 }
