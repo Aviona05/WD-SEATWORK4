@@ -5,14 +5,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="" alt= width="130" height="100">
+    <img src="./assets/img/BEAR.png" alt= width="130" height="100">
   </a>
-
+<h3 align="center">FEATURE SECTION </h3>
 </div>
 
 <div align="center">
-  Short Description. (Optional)
+  Different designs and layout for feature pages using HTML and CSS
 </div>
 
 <br />
@@ -58,17 +57,14 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project? <br> This project is about creating diffeerent design and layout for feature section of a website.
+- Whats the purpose <br>The purpose of this project it to deliver attractive and practical elements that boost the website's user experience and strengthen brand identity. The designs should appeal to a wide range of interests and styles, providing consumers with several options.
+
 
 ### Key Components
-<!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Hover effect
 
 ### Technology
 
@@ -111,7 +107,9 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|Github|Get some ideas for landing page|https://github.com/zyx-0314/WD-Seatwork-3|
+|SONY|Get information and pictures|https://www.sony.com.ph/electronics/smart-tv-features-apps-and-internet#CONTENT|
+|MITSUBISHI|Get information and pictures|https://www.mhi-mth.co.jp/en/products/residential-and-commercial-air-conditioners/rac-sr/#features|
+
