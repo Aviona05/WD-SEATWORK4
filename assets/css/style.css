@@ -103,8 +103,13 @@ nav ul li a:hover::before {
     padding: 15rem 0;
     gap: 3rem;
 
-    & h3 {
+    & .h3 {
       font-size: 3rem;
+      font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: start;
+    
     }
 
     & .cards-container {
