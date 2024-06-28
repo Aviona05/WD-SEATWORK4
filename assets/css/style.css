@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lilita One", sans-serif;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    position: relative;
+    font-size: 20px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 100;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 40px;
+    transition: color 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(65, 45, 4);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.5s;
+}
+
+nav ul li a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color:rgb(80, 56, 0);
+}
+
+.content h1 {
+    padding: 100px 0;
+    font-size: 90px;
+    font-weight: 300;
+}
+
+.content h2 {
+    font-size: 20px;
+    font-weight: 50;
+    color: rgb(80, 56, 0);
+}
+
+.content p {
+    font-size: 10px;
+    font-weight: 50;
+    color: rgb(80, 56, 0);
+}
+
+.bg_Pic {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
