@@ -65,7 +65,7 @@ nav ul li a:hover::before {
 
 .content {
     position: relative;
-    height: 90vh;
+    height: calc(100dvh - 5rem);
     z-index: 2;
     text-align: center;
     color:rgb(0, 0, 0);
@@ -129,10 +129,10 @@ nav ul li a:hover::before {
    justify-content: center;
 }
 .services{
-    width: 1100px;
+    width: 800px;
     height: auto;
-    display: row;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
@@ -157,32 +157,32 @@ nav ul li a:hover::before {
 }
 .img-one{
     background-image: url(../img/bravia.png);
-    background-size: 50% 80%;
+    background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .img-two{
     background-image: url(../img/sony.png);
-    background-size: 50% 80%;
+    background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .img-three{
     background-image: url(../img/control.png);
-    background-size: 50% 80%;
+    background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 .img-four{
     background-image: url(../img/camera.png);
-    background-size: 50% 80%;
+    background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .img-five{
     background-image: url(../img/remote.png);
-    background-size: 50% 80%;
+    background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
