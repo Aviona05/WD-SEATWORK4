@@ -8,6 +8,10 @@
     font-family: "Lilita One", sans-serif;
 }
 
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(236,235,220,0) 33%, rgba(227,231,197,1) 100%);
+}
+
 .hero {
     position: relative;
     display: flex;
@@ -116,7 +120,7 @@ nav ul li a:hover::before {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 30rem;
+    padding-top: 25rem;
     padding-left: 2rem;
 }
 
@@ -126,7 +130,6 @@ nav ul li a:hover::before {
 }
 
 .card {
-    
     width: 650px;
     height: 230px;
     background-color: #f8f8f8;
@@ -135,18 +138,18 @@ nav ul li a:hover::before {
     overflow: hidden;
 }
 
-
-
 .card-content {
     display: flex;
     padding: 20px;
 }
-.member{
+
+.member {
     display: flex;
     flex-direction: column;
     align-items: start;
     text-align: start;
 }
+
 .card-content img {
     width: 400px;
     height: 200px;
@@ -165,7 +168,6 @@ nav ul li a:hover::before {
 .member p {
     font-size: 14px;
 }
-
 
 @media (max-width: 991px) {
     .wrapper {
