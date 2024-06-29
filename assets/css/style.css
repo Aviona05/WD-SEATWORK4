@@ -7,13 +7,7 @@
     font-family: "Lilita One", sans-serif;
 }
 
-body {
-    background-image: url(../img/bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
+
 
 .hero {
     position: relative;
@@ -24,57 +18,16 @@ body {
     z-index: 1;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav ul li a {
-    position: relative;
-    font-size: 20px;
-    font-family: "Lilita One", sans-serif;
-    font-weight: 100;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px 40px;
-    transition: color 0.5s;
-}
-
-nav ul li a:hover {
-    color: rgb(255, 208, 0);
-}
-
-nav ul li a::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: rgb(255, 208, 0);
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.5s;
-}
-
-nav ul li a:hover::before {
-    visibility: visible;
-    transform: scaleX(1);
-}
-
 .content {
     position: relative;
     z-index: 2;
     text-align: center;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     padding-top: 50px;
+    background-image: url(../img/bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
     
 }
 
@@ -87,29 +40,34 @@ nav ul li a:hover::before {
 .content h2 {
     font-size: 20px;
     font-weight: 50;
-    color: rgb(255, 255, 255);
+    color: rgba(78, 77, 77, 0.736);
 }
 
 .content p {
     font-size: 20px;
     font-weight: 50;
-    color: rgb(255, 255, 255);
+    color: rgba(78, 77, 77, 0.736);
     
 }
 .features {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15rem 0;
+    padding: 5rem 0;
     gap: 3rem;
 
-    & .h3 {
+    & h3 {
       font-size: 3rem;
       font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     text-align: start;
-    
+    color: rgba(66, 65, 65, 0.534);
+    background-color: rgba(154, 152, 152, 0.638);
+    width: 100%;
+    text-align: center;
+    border-top: solid 5px rgba(0, 0, 0, 0.534);
+    border-bottom: solid 5px rgba(0, 0, 0, 0.534);
     }
 
     & .cards-container {
