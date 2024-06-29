@@ -51,20 +51,17 @@
 ---
 
 ## Overview
-
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
 Description of the project in details.
-
 Guiding Question:
 - What is the project? <br> This project is about creating diffeerent design and layout for feature section of a website.
 - Whats the purpose <br>The purpose of this project it to deliver attractive and practical elements that boost the website's user experience and strengthen brand identity. The designs should appeal to a wide range of interests and styles, providing consumers with several options.
 
 
 ### Key Components
-<!-- The following are just sample -->
 - MultiPage Website
-- Hover effect
+- Hover Effect
+- Landing pages
+- Feature pages
 
 ### Technology
 
@@ -112,4 +109,7 @@ WD-ProjectName
 |Github|Get some ideas for landing page|https://github.com/zyx-0314/WD-Seatwork-3|
 |SONY|Get information and pictures|https://www.sony.com.ph/electronics/smart-tv-features-apps-and-internet#CONTENT|
 |MITSUBISHI|Get information and pictures|https://www.mhi-mth.co.jp/en/products/residential-and-commercial-air-conditioners/rac-sr/#features|
+|GOOGLE FONTS|Get some font designs|https://fonts.google.com/|
+|PINTEREST|Get some photos for background|https://ph.pinterest.com/|
+
 
